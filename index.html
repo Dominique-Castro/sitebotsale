@@ -1,3 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbots Inteligentes para o seu Negócio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 30px;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+        .descricao-negocio {
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #444;
+        }
+        .planos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .plano {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 16px;
+            padding: 30px;
+            width: 300px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .plano:hover {
+            transform: translateY(-5px);
+        }
+        .plano h3 {
+            color: #007BFF;
+        }
+        .botoes-pagamento {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .botao {
+            background: #28a745;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .botao:hover {
+            background: #218838;
+        }
+        .contato {
+            margin-top: 40px;
+            font-size: 18px;
+        }
+        .contato a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .illustracao {
+            margin-top: 50px;
+        }
+        .illustracao img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            background: #f1f1f1;
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Chatbots Inteligentes para o seu Negócio</header>
+    <div class="container">
+        <h2>Automatize o atendimento e ganhe mais tempo!</h2>
+        <p>Escolha um plano e tenha um chatbot funcionando para o seu negócio.</p>
+
+        <div class="descricao-negocio">
+            <p>Automatize seu atendimento, encante seus clientes e ganhe tempo para focar no que realmente importa. Criamos <strong>chatbots personalizados para WhatsApp, Telegram e sites</strong>, prontos para responder seus clientes 24 horas por dia.</p>
+            <p>Com planos acessíveis e suporte contínuo, você tem a tecnologia ao seu lado sem complicações. Seja para responder dúvidas frequentes, realizar agendamentos ou enviar informações automaticamente, nossos bots se adaptam ao seu negócio e melhoram a experiência dos seus clientes.</p>
+        </div>
+
+        <div class="planos">
+            <div class="plano">
+                <h3>Plano Básico</h3>
+                <p>Respostas automáticas</p>
+                <p><strong>R$ 150/mês</strong></p>
+                <div class="botoes-pagamento">
+                    <a class="botao" href="https://wa.me/5599999999999?text=Olá! Tenho interesse no Plano Básico." target="_blank">📱 Falar no WhatsApp</a>
+                    <a class="botao" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c93808496006df901960701d5fd03b4" target="_blank">💳 Pagar com Cartão ou Pix</a>
+                </div>
+            </div>
+            <div class="plano">
+                <h3>Plano Intermediário</h3>
+                <p>Integração com APIs</p>
+                <p><strong>R$ 300/mês</strong></p>
+                <div class="botoes-pagamento">
+                    <a class="botao" href="https://wa.me/5599999999999?text=Olá! Tenho interesse no Plano Intermediário." target="_blank">📱 Falar no WhatsApp</a>
+                    <a class="botao" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c93808496006df201960704d68203cf" target="_blank">💳 Pagar com Cartão ou Pix</a>
+                </div>
+            </div>
+            <div class="plano">
+                <h3>Plano Avançado</h3>
+                <p>Personalizações + Relatórios</p>
+                <p><strong>R$ 500/mês</strong></p>
+                <div class="botoes-pagamento">
+                    <a class="botao" href="https://wa.me/5599999999999?text=Olá! Tenho interesse no Plano Avançado." target="_blank">📱 Falar no WhatsApp</a>
+                    <a class="botao" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c93808496006df2019607076ce403d0" target="_blank">💳 Pagar com Cartão ou Pix</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="illustracao">
+            <h2>Conecte-se com a tecnologia</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Imagem amigável de robô com inteligência artificial e tecnologia">
+        </div>
+
+        <div class="contato">
+            <p><strong>Fale conosco:</strong> <a href="https://wa.me/5599999999999" target="_blank">Clique aqui para conversar no WhatsApp</a></p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 - Todos os direitos reservados | Site criado por Dominique Castro
+    </footer>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
