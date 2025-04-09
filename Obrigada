@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Obrigado pela sua compra | BotMaster</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f3f4f6;
+      padding: 50px;
+      color: #111827;
+    }
+    h1 {
+      color: #10b981;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #10b981;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    a.button:hover {
+      background-color: #059669;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Obrigado pela sua compra!</h1>
+  <p>Seu pedido foi recebido com sucesso. Em breve entraremos em contato para iniciar a criação do seu chatbot personalizado.</p>
+  <p>Se tiver dúvidas, fale conosco pelo WhatsApp ou e-mail.</p>
+  <a class="button" href="Contrato_BotMaster.pdf" download>📄 Baixar contrato</a>
+  <br><br>
+  <a href="index.html">← Voltar ao início</a>
+</body>
+</html>
